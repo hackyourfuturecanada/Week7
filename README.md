@@ -1,7 +1,7 @@
-# Week7
-JavaScript
+# Week7: JavaScript
  
-# Exercise borrowed from [https://frontendmasters.com](Frontend Masters)
+Exercise borrowed from [Frontend Masters](https://frontendmasters.com)
+
 This is an exercise to practice basic programming principles.
 
 ## Instructions
