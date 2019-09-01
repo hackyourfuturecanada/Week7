@@ -1,13 +1,28 @@
 // TODO: define addFavoriteBook(..) function
 
-// TODO: define printFavoriteBooks() function
-
-const favoriteBooks = [];
-
-addFavoriteBook("A Song of Ice and Fire");
-addFavoriteBook("The Great Gatsby");
-addFavoriteBook("Crime & Punishment");
-addFavoriteBook("Great Expectations");
-addFavoriteBook("You Don't Know JS");
-
-// TODO: print out favorite books
+function addFavoriteBook(bookName) {
+    if (!bookName.includes('Great')) {
+      favoriteBooks.push(bookName);
+    }
+  }
+  
+  // TODO: define printFavoriteBooks() function
+  
+  function printFavoriteBooks() {
+    console.log('Favorite Books: ' + favoriteBooks.length);
+    for (const index of favoriteBooks) {
+      console.log(index);
+    }
+  }
+  
+  const favoriteBooks = [];
+  
+  addFavoriteBook("A Song of Ice and Fire");
+  addFavoriteBook("The Great Gatsby");
+  addFavoriteBook("Crime & Punishment");
+  addFavoriteBook("Great Expectations");
+  addFavoriteBook("You Don't Know JS");
+  
+  // TODO: print out favorite books
+  
+  printFavoriteBooks();
