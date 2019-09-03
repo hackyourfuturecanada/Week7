@@ -4,7 +4,7 @@ const favoriteBooks = [];
 function addFavoriteBook(bookName) {
   if (!bookName.includes("Great")) { // if this not true
   favoriteBooks.push(bookName) // do this.
-} console.log(favoriteBooks);
+ } console.log(favoriteBooks);
 }
 addFavoriteBook("The Great Gatsby");
 addFavoriteBook("Crime & Punishment");
