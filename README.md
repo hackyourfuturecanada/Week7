@@ -6,3 +6,6 @@ Edit ex.js to submit.
 
 2. See [Part2](Part2.md) for instructions.
 Create a new file called `answers.js` to answer the questions in this file.
+
+## Solutions
+[Solutions available on the `solutions` branch](https://github.com/hackyourfuturecanada/Week7/tree/solutions)
